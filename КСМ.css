@@ -1,0 +1,359 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
+body{
+font-family: "Arbutus Slab", serif;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ksm_img{
+    width: 150px;
+}
+.numbers{
+    margin-top: 20px;
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    margin-top: 15px;
+}
+.phone{
+    color: rgb(106, 106, 106);
+}
+.kyiv{
+    width: 20px;
+    height: 20px;
+}
+.blue{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 28px;
+    background-color: rgb(62, 167, 233);
+    height: 50px;
+    width: 240px;
+     transition: all 0.1s ease;
+}
+.blue:hover{
+    background-color: rgb(17, 148, 229);;
+}
+.blue:active{
+ scale: 0.9;
+}
+.red{
+       color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 28px;
+    background-color: rgb(239, 109, 109);
+    height: 50px;
+    width: 240px;
+     transition: all 0.1s ease; 
+}
+.red:hover{
+    background-color: rgb(233, 75, 75);
+}
+.red:active{
+ scale: 0.9;
+}
+.nav_menu{
+    display: flex;
+    justify-content: space-around;
+    list-style-type:none;
+    background-color:  rgb(62, 167, 233);
+    padding: 15px 0;
+    border-radius: 30px;
+}
+.nav_menu a{
+ text-decoration: none;
+font-size: 20px;
+color: white;
+}
+.nav_red{
+    padding: 15px 0;
+    background-color: rgb(233, 75, 75);
+}
+.nav_red:hover{
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+.white:hover{
+     padding: 15px 0;
+   background-color: white;
+    color: black;
+    transition: 0.4s;   
+}
+.select{
+    border: none;
+    background-color: rgb(62, 167, 233);
+    color: white;
+    font-size: 20px;
+}
+.UA{
+     background-color: rgb(62, 167, 233);
+    color: white;
+    font-size: 20px;
+}
+.ENG{
+      background-color: rgb(62, 167, 233);
+    color: white;
+    font-size: 20px;
+}
+.section_image{
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(62, 167, 233);
+    border-radius: 30px;
+}
+
+.Big_img{
+    margin-top: 30px;
+}
+.Klinic{
+    border-radius: 30px;
+    width: 1500px;
+}
+.h1_text{
+    margin-top: 70px;
+color: white;
+}
+.p_text{
+color: white;
+font-size: 17px;
+}
+.btn_text{
+color: white;
+font-weight: bold;
+border-radius: 20px;
+border: none;
+background-color: rgb(59, 225, 59);
+width: 250px;
+height: 40px;
+transition: all 0.1s ease; 
+}
+.btn_text:active{
+    scale: 0.9;
+}
+.btn_text:hover{
+    background-color: rgb(22, 214, 22);
+}
+.Big_img:hover img{
+      zoom: 1;
+    filter: alpha(opacity=80);
+    -webkit-opacity: 0.2;
+    opacity: 0.9;
+}
+
+.logo:hover img{
+      zoom: 1;
+    filter: alpha(opacity=80);
+    -webkit-opacity: 0.2;
+    opacity: 0.9;
+}
+.img_klinic1{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 330px;
+    border-radius: 30px;
+}
+.img_klinic1:hover{
+   zoom: 1;
+    filter: alpha(opacity=80);
+    -webkit-opacity: 0.2;
+    opacity: 0.9;
+}
+.img_kilinc2{
+     margin-top: 5px;
+    margin-left: 5px;
+    width: 330px;
+     border-radius: 30px;
+      
+}
+.img_kilinc2:hover{
+    zoom: 1;
+    filter: alpha(opacity=80);
+    -webkit-opacity: 0.2;
+    opacity: 0.9;
+}
+.section_firts{
+    text-align: center;
+}
+.h1_first{
+    color: rgb(106, 106, 106);
+}
+.grid{
+    display:grid;
+    gap:35px;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+}
+.grid_txt{
+    color:  rgb(15, 142, 221);
+    font-weight: bold;
+    font-size: 20px;
+}
+.box{
+    text-align: center;
+    width: 200px;
+    height: 180px;
+    border: 4px solid rgb(62, 167, 233);
+    border-radius: 28px;
+}
+.box:hover{
+     box-shadow: 1px 1px 30px rgb(62, 167, 233);
+}
+.img_grid{
+    margin-bottom: 20px;
+    width: 90px;
+}
+.section_second{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(62, 167, 233);
+    border-radius: 30px;
+    
+}
+.hirurg_img{
+    border-radius: 30px;
+    margin-top: 5px;
+}
+.info{
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+.but_info{
+    color: white;
+font-weight: bold;
+border-radius: 20px;
+border: none;
+background-color: rgb(59, 225, 59);
+width: 250px;
+height: 40px;
+transition: all 0.1s ease; 
+}
+.but_info:active{
+    scale: 0.9;
+}
+.but_info:hover{
+    background-color: rgb(22, 214, 22);
+}
+.h1_info{
+    color: white;
+}
+.p_info{
+    color: white;
+    font-size: 20px;
+}
+.hirurg:hover img{
+       zoom: 1;
+    filter: alpha(opacity=80);
+    -webkit-opacity: 0.2;
+    opacity: 0.9;
+}
+.section_third{
+    margin-top: 50px;
+    text-align: center;
+}
+.h1_third{
+    color: rgb(106, 106, 106);
+}
+.grid_second{
+    margin-top: 50px;
+     display:grid;
+    gap:35px;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+}
+.fourth{
+     border-radius: 30px;
+    margin-top: 40px;
+    justify-content: space-between;
+    background-color: rgb(62, 167, 233);
+    display: flex;
+}
+.text_fourth{
+    text-align: center;
+    margin-top: 50px;
+}
+.admin{
+    border-radius: 30px;
+}
+.photo:hover img{
+        zoom: 1;
+    filter: alpha(opacity=80);
+    -webkit-opacity: 0.2;
+    opacity: 0.9;
+}
+.five{
+    text-align: center;
+    margin-top: 60px;
+    color:  rgb(3, 116, 185);
+}
+.logotypes{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.logotypes:hover{
+    text-decoration: underline;
+}
+.six{
+    margin-top: 30px;
+    text-align: center;
+    color:  rgb(106, 106, 106);
+}
+.boxes{
+    display:grid;
+    gap:55px;
+    grid-template-columns: auto auto auto ;
+    justify-content: center;
+}
+.cont-1{
+    width: 300px;
+    height: 300px;
+}
+.cont_img{
+    width: 300px;
+    border-radius: 10px;
+}
+.cont-1:hover img{
+         zoom: 1;
+    filter: alpha(opacity=80);
+    -webkit-opacity: 0.2;
+    opacity: 0.9;
+}
+.footer{
+    margin-top: 50px;
+    display: flex;
+    background-color: rgb(3, 116, 185);
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 80px 0px;
+}
+.footer_menu{
+     list-style-type: none;
+}
+.footer_menu a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 2.1;
+    font-size: 18px;
+}
+.footer_menu a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
